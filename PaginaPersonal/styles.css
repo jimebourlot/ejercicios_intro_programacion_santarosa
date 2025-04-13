@@ -60,6 +60,30 @@ section h4 {
     font-weight: bold;
 }
 
+/* Skills section styles */
+.skill {
+    margin-bottom: 1.5rem;
+}
+
+.skill p {
+    margin: 0 0 0.5rem;
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.skill-level {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+}
+
 /* Footer styles */
 footer {
     text-align: center;
@@ -76,4 +100,14 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Google forms iframe styles */
+section iframe {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    min-height: 600px; /* Altura mínima para evitar que sea demasiado pequeño */
+    border: none; /* Elimina el borde */
+    border-radius: 8px; /* Opcional: redondea las esquinas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra */
 }
